@@ -100,7 +100,7 @@ RUN chmod +x /home/docker/runrf2.sh
 RUN chown docker:docker /home/docker/runrf2.sh
 
 # Download rFactor2 Lite Build 1036
-RUN cd /home/docker && wget http://www.mediafire.com/download/xdqvbzredm3z9z5/rFactor2_LiteBuild_1036.exe
+RUN cd /home/docker && wget http://www.mediafire.com/download/0rzgsy44778ay0y/rFactor2_LiteBuild_1052.exe
 RUN chown docker:docker /home/docker/*.exe
 
 # Start xdm and ssh services.
